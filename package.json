@@ -24,10 +24,8 @@
   },
   "homepage": "https://github.com/artchen/hexo-baidusearch#readme",
   "dependencies": {
-    "async": "^2.0.1",
-    "hexo-util": "^0.6.0",
-    "lodash": "^4.15.0",
-    "q": "^1.4.1",
-    "request": "^2.74.0"
+    "ejs": "^2.5.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
   }
 }

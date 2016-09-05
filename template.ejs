@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset>
+  <% posts.forEach(function(post) { %>
+  <url>
+    <loc><%- post.permalink %></loc>
+    <lastmod><%- post.updated.format('YYYY-MM-DD') %></lastmod>
+    <changefreq>always</changefreq>
+    <data>
+      <display>
+        <title><%- post.title %></title>
+        <content><%- encodeURI(post.content) %></content>
+        <pubTime><%- post.date.format('YYYY-MM-DDTHH:mm:ss') %></pubTime>
+      </display>
+    </data>
+  </url>
+  <% }); %>
+</urlset>
