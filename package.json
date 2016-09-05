@@ -1,0 +1,33 @@
+{
+  "name": "hexo-baidusearch",
+  "version": "0.0.1",
+  "description": "Azure search support for Hexo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artchen/hexo-baidusearch.git"
+  },
+  "keywords": [
+    "baidu",
+    "search",
+    "hexo"
+  ],
+  "author": {
+    "name": "Art Chen"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artchen/hexo-baidusearch/issues"
+  },
+  "homepage": "https://github.com/artchen/hexo-baidusearch#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "hexo-util": "^0.6.0",
+    "lodash": "^4.15.0",
+    "q": "^1.4.1",
+    "request": "^2.74.0"
+  }
+}
