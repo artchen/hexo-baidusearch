@@ -5,10 +5,11 @@
     <loc><%- post.permalink %></loc>
     <lastmod><%- post.updated.format('YYYY-MM-DD') %></lastmod>
     <changefreq>always</changefreq>
+    <priority>0.5</priority>
     <data>
       <display>
         <title><%- post.title %></title>
-        <content><%- encodeURI(post.content) %></content>
+        <content><![CDATA[<%- post.content %>]]></content>
         <pubTime><%- post.date.format('YYYY-MM-DDTHH:mm:ss') %></pubTime>
       </display>
     </data>

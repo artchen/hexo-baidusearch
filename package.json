@@ -26,6 +26,7 @@
   "dependencies": {
     "ejs": "^2.5.1",
     "fs": "0.0.1-security",
+    "hexo-util": "^0.6.0",
     "path": "^0.12.7"
   }
 }
